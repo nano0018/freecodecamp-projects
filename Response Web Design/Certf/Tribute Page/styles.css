@@ -1,0 +1,84 @@
+/* Your img element should have a display of block.
+Your #image should have a max-width of 100%.
+Your #image should have a height of auto.
+Your #image should be centered within its parent. */
+:root {
+    --primary-color: #112D4E;
+    --secondary-color: #3F72AF;
+    --bg-color-1: #F9F7F7;
+    --bg-color-2: #DBE2EF;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--bg-color-1);
+}
+
+h1, p, h4 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 15px;
+}
+
+p {
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+main {
+    background-color: var(--bg-color-2);
+    border-radius: 25px;
+}
+
+div {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--primary-color);    
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin: auto;
+    text-align: center;
+    color: var(--bg-color-1);
+}
+
+section {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+li {
+    margin-top: auto;
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#year {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+h4 {
+    font-size: 25px;
+    padding-bottom: 25px;
+}

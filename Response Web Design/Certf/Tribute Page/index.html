@@ -1,0 +1,54 @@
+<!--
+    Build a Tribute Page
+Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+
+User Stories:
+
+* Your tribute page should have a main element with a corresponding id of main, which contains all other elements.
+* You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+* You should see either a figure or a div element with an id of img-div.
+* Within the #img-div element, you should see an img element with a corresponding id="image".
+* Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div.
+* You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+* You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab.
+* Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size.
+* Your img element should be centered within its parent element.
+
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Gabriel García Márquez - Nobel">
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Gabriel García Márquez - Nobel de literatura</title>        
+    </head>
+    <body>
+        <main id="main">
+            <h1 id="title">Gabriel García Márquez</h1>
+            <p>Primer nobel de literatura de Colombia</p>
+            <div id="img-div">
+                <img id="image" src="https://www.caracteristicas.co/wp-content/uploads/2018/08/garcia-marquez-1-e1577755902830.jpg" alt="Gabriel_Garcia_Marquez,_2009.jpg">
+                <figcaption id="img-caption">19/03/2009 La Ministra de Cultura de Colombia Paula Moreno y el escritor colombiano Gabriel García Marquez fueron los encargados de entregar el Mayahuel de Plata a Victor Gaviria<br>Fuente:<a href="https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez#/media/Archivo:Gabriel_Garcia_Marquez,_2009.jpg" target="_blank"> Wikipedia</a></figcaption>
+            </div>
+            <section id="tribute-info">
+                <ul>
+                    <li><span id="year">1927</span> - Nace en Aracataca, departamento de Magdalena, Colombia.</li>
+                    <li><span id="year">1940</span> - Cursa estudios en el colegio jesuita San José</li>
+                    <li><span id="year">1947</span> - Adquiere su graduación escolar y se inicia en los estudios de derecho en la Universidad Nacional de Colombia</li>
+                    <li><span id="year">1947</span> - Publica su primer cuento La tercera resignación, en el diario El Espectador</li>
+                    <li><span id="year">1950</span> - Desiste de convertirse en abogado y se centra en el periodismo, trasladándose de nuevo a Barranquilla para trabajar como columnista y reportero del periódico El Heraldo <br></li>
+                    <li><span id="year">1955</span> - Se publica su primera novela La hojarasca</li>
+                    <li><span id="year">1961</span> - Se instala en Nueva York como corresponsal de Prensa Latina y escribe su novela El coronel no tiene quien le escriba</li>
+                    <li><span id="year">1967</span> - Se publica su obra más conocida Cien años de soledad</li>
+                </ul>
+                <h4>Ver bibliografía completa en: <a href="https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez" id="tribute-link" target="_blank">Wikipedia</a></h4>
+            </section>
+        </main>
+    </body>
+</html>
