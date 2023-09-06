@@ -32,3 +32,4 @@ function palindrome(str) {
 }
 
 console.log(palindrome('{aa*aa}'));
+
